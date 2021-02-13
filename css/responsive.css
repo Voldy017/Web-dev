@@ -1,0 +1,97 @@
+
+/*media queries*/
+
+.burger{
+	/*display: none;*/
+	position: absolute;
+	cursor: pointer;
+	right: 5%;
+	top: 15px;
+	display: none;
+}
+.line{
+	width: 88px;
+    background-color: white;
+    height: 6px;
+    margin: 18px 10px;
+
+}
+@media only screen and (max-aspect-ratio: 3/4){
+	.navBar{
+		flex-direction: column;
+		/*height: 40px;*/
+		transition: all 0.8s ease-out;
+		height: 650px;
+	}
+	.leftNav{
+		flex-direction: column;
+	}
+	.rightNav{
+		flex-direction: column;
+	}
+	.navItems{
+		padding: 29px 20px;
+		font-size: 40px;
+	}
+	.navImage{
+		width: 100px;
+		margin: auto;
+		padding: 0px;
+	}
+	.rightNav{
+		padding: 20px;
+		width: 100%;
+		text-align: center;
+	}
+	.burger{
+		display: block;
+	}
+
+	.h-Nav-resp{
+		height: 100px;
+	}
+
+	.v-class-resp{
+		opacity: 0;
+	}
+
+	.boxMain{
+		width: 100%;
+	}
+	.textBig{
+		font-size: 107px;
+		margin-top: 30px;
+	}
+	.textSmall{
+		font-size: 41px;
+		padding: 34px 0px;
+	}
+	.textDate{
+		font-size: 31px;
+	}
+
+	.mainSection{
+		flex-direction: column-reverse;
+		width: 75%;
+		margin: 0% 10%;
+		border-left: 2px solid black;
+		border-right: 2px solid black;
+	}
+	.sectionLeft{
+		width: 100%;
+	    margin-left: 0px;
+	    border-right: none;
+	    border-left: none;
+	}
+	.sectionRight{
+		width: 75%;
+		margin-left: auto;
+	}
+	.profile{
+		flex-direction: row;
+
+	}
+	.profileImg{
+		width: 160px;
+	}
+}
